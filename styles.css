@@ -670,26 +670,26 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-  color: #fff;
+  color: #673AB7;
 }
 
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-  color: #fff;
+  color: #673AB7;
 }
 
 .text-5xl {
   font-size: 2rem;
   line-height: 1;
-  color: #fff;
+  color: #673AB7;
   font-weight: bold;
 }
 
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color: #fff;
+  color: #673AB7;
 }
 
 .font-extralight {
