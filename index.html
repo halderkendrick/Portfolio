@@ -15,15 +15,13 @@
         body {font-family: Verdana, sans-serif; margin:0}
         .mySlides {display: none}
         img {vertical-align: middle;}
-        
-        /* Slideshow container */
+
         .slideshow-container {
           max-width: 1000px;
           position: relative;
           margin: auto;
         }
-        
-        /* Next & previous buttons */
+
         .prev, .next {
           cursor: pointer;
           position: absolute;
@@ -38,19 +36,16 @@
           border-radius: 0 3px 3px 0;
           user-select: none;
         }
-        
-        /* Position the "next button" to the right */
+
         .next {
           right: 0;
           border-radius: 3px 0 0 3px;
         }
-        
-        /* On hover, add a black background color with a little bit see-through */
+
         .prev:hover, .next:hover {
           background-color: rgba(0,0,0,0.8);
         }
-        
-        /* Caption text */
+
         .text {
           color: #f2f2f2;
           font-size: 15px;
@@ -60,8 +55,7 @@
           width: 100%;
           text-align: center;
         }
-        
-        /* Number text (1/3 etc) */
+
         .numbertext {
           color: #f2f2f2;
           font-size: 12px;
@@ -69,8 +63,7 @@
           position: absolute;
           top: 0;
         }
-        
-        /* The dots/bullets/indicators */
+
         .dot {
           cursor: pointer;
           height: 15px;
@@ -81,23 +74,21 @@
           display: inline-block;
           transition: background-color 0.6s ease;
         }
-        
+
         .active, .dot:hover {
           background-color: #717171;
         }
-        
-        /* Fading animation */
+
         .fade {
           animation-name: fade;
           animation-duration: 1.5s;
         }
-        
+
         @keyframes fade {
           from {opacity: .4} 
           to {opacity: 1}
         }
-        
-        /* On smaller screens, decrease text size */
+
         @media only screen and (max-width: 300px) {
           .prev, .next,.text {font-size: 11px}
         }
@@ -134,6 +125,11 @@
         <div class="text-center">
             <img src="img1.jpg" alt="avatar" class="rounded-full w-60 h-60 object-cover shadow-lg">
             <p class="text-xl mt-3 font-medium">Kendrick Halder</p>
+            <div class="mt-5">
+                <a href="Kendrick_Halder_Resume.pdf" download class="bg-white text-gray-800 px-6 py-2 rounded-full shadow-lg hover:bg-gray-100 transition duration-300" target="_blank">
+                    <i class="fa-solid fa-download mr-2"></i>Download Resume
+                </a>
+            </div>
         </div>
         <div class="card w-full sm:w-2/3 mt-5 sm:mt-0">
             <p>Hey there! I am Kendrick Connery Halder Aurk. I'm currently an undergraduate student studying CSE at <a class="underline" href="https://cse.uiu.ac.bd/" target="_blank">UIU</a>. I have completed a Front-End Development course from <a class="underline" href="https://www.creativeitinstitute.com/courses/front-end-development-with-react" target="_blank">Creative IT Institute</a>. I'm passionate about programming and exploring different fields of software development.</p>
@@ -160,44 +156,36 @@
     <div class="mt-10 w-full max-w-4xl">
         <h2 class="text-3xl font-semibold text-center">My Previous Work</h2><br>
         <div class="slideshow-container">
-            
           <div class="mySlides fade">
             <div class="numbertext">1 / 4</div>
              <a target="_blank" href="https://donboscoyouth.vercel.app/"><img src="work4.png" style="width:100%"></a>
             <div class="text">Don Bosco Youth Club</div>
           </div>
-
-            <div class="mySlides fade">
+          <div class="mySlides fade">
               <div class="numbertext">2 / 4</div>
                <a target="_blank" href="https://avada-nu.vercel.app/"><img src="work1.png" style="width:100%"></a>
               <div class="text">Avada Extreme Sports</div>
-            </div>
-            
-            <div class="mySlides fade">
+          </div>
+          <div class="mySlides fade">
               <div class="numbertext">3 / 4</div>
                <a target="_blank" href="https://innovate-home.vercel.app/"><img src="work2.png" style="width:100%"></a>
               <div class="text">Innovate</div>
-            </div>
-            
-            <div class="mySlides fade">
+          </div>
+          <div class="mySlides fade">
               <div class="numbertext">4 / 4</div>
                <a target="_blank" href="https://kendrick-halder.vercel.app/"><img src="work3.png" style="width:100%"></a>
               <div class="text">Kendrick Halder</div>
-            </div>
-            
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-            
-            </div>
-            <br>
-            
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span> 
-              <span class="dot" onclick="currentSlide(4)"></span> 
-            </div>
-            
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
     </div>
     <div class="mt-10 text-center">
         <h2 class="text-3xl font-semibold">Socials</h2>
