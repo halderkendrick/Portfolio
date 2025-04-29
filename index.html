@@ -211,6 +211,37 @@
             <a href="https://github.com/halderkendrick" target="_blank" class="text-3xl"><i class="fa-brands fa-github"></i></a>
         </div>
     </div>
+    <section class="s2 mt-10 w-full max-w-4xl">
+      <div class="main-container bg-white bg-opacity-10 backdrop-blur-md p-6 rounded-lg shadow-lg text-white">
+        <h3 class="text-center text-3xl font-semibold mb-4">Get In Touch</h3>
+        <form id="contact-form" method="POST" action="/send_mail" class="space-y-4">
+          <input type="hidden" name="csrfmiddlewaretoken" value="m9LVqzlNeAC0SvDhXCU3hxJ4YT9l4nuaotbXFm2CKPxW0RDFgsl4Ouc5wVSx6w7j">
+          
+          <div>
+            <label class="block">Name</label>
+            <input class="input-field w-full p-2 rounded-md text-black" type="text" name="name" required>
+          </div>
+    
+          <div>
+            <label class="block">Subject</label>
+            <input class="input-field w-full p-2 rounded-md text-black" type="text" name="subject" required>
+          </div>
+    
+          <div>
+            <label class="block">Email</label>
+            <input class="input-field w-full p-2 rounded-md text-black" type="email" name="email" required>
+          </div>
+    
+          <div>
+            <label class="block">Message</label>
+            <textarea class="input-field w-full p-2 rounded-md text-black" name="message" rows="4" required></textarea>
+          </div>
+    
+          <input id="submit-btn" type="submit" value="Send" class="bg-white text-black px-4 py-2 rounded hover:bg-gray-200 transition">
+        </form>
+      </div>
+    </section>
+    
     <footer class="mt-10 text-center text-sm">
         <p>Website developed by <a class="underline" href="https://github.com/halderkendrick">Kendrick Halder</a>.</p>
     </footer>
