@@ -166,40 +166,115 @@
             <li class="bg-white text-gray-800 px-4 py-2 rounded-lg shadow">Figma</li>
         </ul>
     </div>
-    <div class="mt-10 w-full max-w-4xl">
-        <h2 class="text-3xl font-semibold text-center">My Previous Work</h2><br>
-        <div class="slideshow-container">
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 4</div>
-             <a target="_blank" href="https://donboscoyouth.vercel.app/"><img src="work4.png" style="width:100%"></a>
-            <div class="text">Don Bosco Youth Club</div>
-          </div>
-          <div class="mySlides fade">
-              <div class="numbertext">2 / 4</div>
-               <a target="_blank" href="https://avada-nu.vercel.app/"><img src="work1.png" style="width:100%"></a>
-              <div class="text">Avada Extreme Sports</div>
-          </div>
-          <div class="mySlides fade">
-              <div class="numbertext">3 / 4</div>
-               <a target="_blank" href="https://innovate-home.vercel.app/"><img src="work2.png" style="width:100%"></a>
-              <div class="text">Innovate</div>
-          </div>
-          <div class="mySlides fade">
-              <div class="numbertext">4 / 4</div>
-               <a target="_blank" href="https://kendrick-halder.vercel.app/"><img src="work3.png" style="width:100%"></a>
-              <div class="text">Kendrick Halder</div>
-          </div>
-          <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
-        </div>
-        <br>
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-          <span class="dot" onclick="currentSlide(4)"></span> 
+    <br><br>
+    <!-- Previous Work Section -->
+<h2 class="text-3xl font-semibold text-center mb-10">Previous Work</h2>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+    <!-- Project 1 -->
+    <div class="project-card-new">
+        <img src="work4.png" alt="">
+        <div class="project-info">
+            <h3>Don Bosco Youth Club</h3>
+            <p>Community website design</p>
+            <div class="flex gap-4 mt-3">
+                <a href="https://donboscoyouth.vercel.app/" target="_blank">
+                    <i class="fas fa-globe text-xl"></i>
+                </a>
+                <a href="https://github.com/halderkendrick/donboscoyouth" target="_blank">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+            </div>
         </div>
     </div>
+
+    <!-- Project 2 -->
+    <div class="project-card-new">
+        <img src="work1.png" alt="">
+        <div class="project-info">
+            <h3>Avada Extreme Sports</h3>
+            <p>Sports landing page</p>
+            <div class="flex gap-4 mt-3">
+                <a href="https://avada-nu.vercel.app/" target="_blank">
+                    <i class="fas fa-globe text-xl"></i>
+                </a>
+                <a href="https://github.com/halderkendrick/Avada" target="_blank">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card-new">
+        <img src="work2.png" alt="">
+        <div class="project-info">
+            <h3>Innovate</h3>
+            <p>Modern startup UI</p>
+            <div class="flex gap-4 mt-3">
+                <a href="https://innovate-home.vercel.app/" target="_blank">
+                    <i class="fas fa-globe text-xl"></i>
+                </a>
+                <a href="https://github.com/halderkendrick/innovate-home" target="_blank">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Optional CSS -->
+<style>
+.project-card-new {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.project-info {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.project-card-new:hover .project-info {
+    transform: translateY(0);
+}
+
+.project-info i {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.project-info i:hover {
+    color: #38bdf8;
+}
+</style>
+
+
+    <div class="mt-10 w-full max-w-4xl">
+    <h2 class="text-3xl font-semibold text-center mb-5">Behance Project</h2>
+    
+    <div class="flex justify-center">
+        <iframe 
+            src="https://www.behance.net/embed/project/247709935?ilo0=1" 
+            class="behance-frame"
+            allowfullscreen 
+            loading="lazy"
+            frameborder="0"
+            allow="clipboard-write"
+            referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+    </div>
+</div>
+
     <div class="mt-10 text-center">
         <h2 class="text-3xl font-semibold">Socials</h2>
         <div class="social-icons flex justify-center space-x-5 mt-3">
